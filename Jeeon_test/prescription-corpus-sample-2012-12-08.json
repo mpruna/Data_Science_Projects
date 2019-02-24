@@ -1,0 +1,406 @@
+[
+  {
+    "_id": {
+      "$oid": "5a2b08fc449b71fe766d0cfc"
+    },
+
+    "patient": {
+      "id":  {
+        "$oid": "57f274664aa23c00119afb4d"
+      },
+      "sex": "female",
+      "birth_date": "1997-10-16T09:43:46.279+0000",
+      "village": "bahirkanda",
+      "age_then": 20,
+      "age_now": 20,
+      "registration_date": "2017-10-16T09:43:46.280+0000",
+      "registration_duration": 157
+    },
+
+    "rmp": {
+      "id": {
+        "$oid": "58399702cc32be0011fe895d"
+      },
+      "name": "Mizanur Rahman Talukder",
+      "center": "Sidly",
+      "villages": [
+        "bakerkhona",
+        "kakuria",
+        "bishompur",
+        "sidhly",
+        "bahirkanda",
+        "shampur",
+        "satia",
+        "koroikandi",
+        "haridaspur",
+        "dudkura",
+        "kakuria",
+        "chichrakanda",
+        "noktipara"
+      ],
+      "registration_date": "2016-11-26T14:06:58.804+0000"
+    },
+
+    "doctor": {
+      "id": {
+        "$oid": "57f3597ddc989900118223a4"
+      },
+      "name": "ডাঃ রিফাত আকতার",
+      "credentials": "MBBS ( DU), PGT (Internal Medicine)",
+      "specialization": "Internal Medicine",
+      "registration_date": "2016-10-04T07:25:49.208+0000"
+    },
+
+    "appointment": {
+      "id": {
+        "$oid": "59e41d44b907a10012788461"
+      },
+
+      "vitals": {
+        "weight": 33,
+        "bp_systole": 91,
+        "bp_diastole": 71,
+        "pulse": 153,
+        "temperature": 98
+      },
+
+      "images": {
+        "count": 4
+      },
+
+      "symptoms": [
+        "anemia",
+        "tonsils",
+        "stoolandurine"
+      ],
+
+      "slot_start_time": "2017-10-16T09:40:00.000+0000",
+      "slot_end_time": "2017-10-16T09:59:59.999+0000",
+
+      "booking_date": "2017-10-16T09:46:01.139+0000",
+      "booking_duration": 161
+    },
+
+    "prescription": {
+      "id": {
+        "$oid": "59e480034a97ca0012ad911f"
+      },
+
+      "rmp_symptoms": [
+        {
+          "snomed_id": 712798003,
+          "term": "anemia"
+        },
+        {
+          "snomed_id": 301471002,
+          "term": "tonsils"
+        },
+        {
+          "snomed_id": 405729008,
+          "term": "stoolandurine"
+        }
+      ],
+
+      "history": {
+        "family": [],
+        "personal": [],
+        "drug": [],
+        "chronic": [],
+        "allergy": []
+      },
+
+      "complaints": [
+        {
+          "symptom": {
+            "snomed_id": 386661006,
+            "term": "Fever"
+          },
+          "detail": "",
+          "situation": null,
+          "duration": {
+            "value": 1.0,
+            "type": "month"
+          }
+        },
+        {
+          "symptom": {
+            "snomed_id": null,
+            "term": "yellowish discolouration of eyes and urine"
+          },
+          "detail": "",
+          "situation": null,
+          "duration": {
+            "value": null,
+            "type": null
+          }
+        },
+        {
+          "symptom": {
+            "snomed_id": "49650001",
+            "term": "pain & burning during micturaion"
+          },
+          "detail": "",
+          "situation": null,
+          "duration": {
+            "value": null,
+            "type": null
+          }
+        },
+        {
+          "symptom": {
+            "snomed_id": 422587007,
+            "term": "Nausea"
+          },
+          "detail": "",
+          "situation": null,
+          "duration": {
+            "value": null,
+            "type": null
+          }
+        },
+        {
+          "symptom": {
+            "snomed_id": 418290006,
+            "term": "Itching"
+          },
+          "detail": "",
+          "situation": null,
+          "duration": {
+            "value": null,
+            "type": null
+          }
+        },
+        {
+          "symptom": {
+            "snomed_id": 14302001,
+            "term": "Amenorrhoea"
+          },
+          "detail": "after delivery no manustration occur",
+          "situation": null,
+          "duration": {
+            "value": 16.0,
+            "type": "month"
+          }
+        }
+      ],
+
+      "diagnoses": {
+        "provisional": [
+          {
+            "snomed_id": null,
+            "term": "jaundice under evaluation"
+          },
+          {
+            "snomed_id": null,
+            "term": "UTI"
+          },
+          {
+            "snomed_id": "72934000",
+            "term": "vaginal candidiasis"
+          },
+          {
+            "snomed_id": null,
+            "term": "Chicken pox"
+          }
+        ],
+        "differential": [],
+        "final": []
+      },
+
+      "medicines": [
+        {
+          "drug": {
+            "brand_name": "Tablet Azyth (500mg)",
+            "generic_name": "Azithromycin",
+            "company_name": "Novartis (Bangladesh) Ltd.",
+            "strength": "500mg",
+            "formulation": "Tablet",
+            "indication": "Bacterial infections, bacterial endocarditis, typhoid fever, community-acquired pneumonia, uncomplicated gonorrhea, streptococcal pharyngitis/tonsillitis, COPD, acute bacterial sinusitis, acute otitis media, uncomplicated UTI, Uncomplicated gonorrhea, PID, non-gonococcal urethritis, chancroid, acute salmonellosis, cervicitis, babesiosis, chlamydial infections, pelvic inflammatory disease, PID, traveler's diarrhea,",
+            "pack_size": "6's pack",
+            "price": "300"
+          },
+          "dose": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "duration": {
+            "value": 7.0,
+            "type": "day"
+          },
+          "instructions": [],
+          "additional_instructions": []
+        },
+        {
+          "drug": {
+            "brand_name": "Tablet Elfexo 180 (180mg)",
+            "generic_name": "Fexofenadine Hydrochloride",
+            "company_name": "Leon Pharmaceuticals Ltd.",
+            "strength": "180mg",
+            "formulation": "Tablet",
+            "indication": "Allergic rhinitis, Hay fever, Urticaria, Allergy",
+            "pack_size": "",
+            "price": ""
+          },
+          "dose": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "duration": {
+            "value": 7.0,
+            "type": "day"
+          },
+          "instructions": [],
+          "additional_instructions": []
+        },
+        {
+          "drug": {
+            "brand_name": "Tablet Napa (500mg)",
+            "generic_name": "Paracetamol",
+            "company_name": "Beximco Pharmaceuticals Ltd.",
+            "strength": "500mg",
+            "formulation": "Tablet",
+            "indication": "Mild to moderate pain and fever",
+            "pack_size": "500's pack",
+            "price": "400"
+          },
+          "dose": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "duration": {
+            "value": null,
+            "type": null
+          },
+          "instructions": [
+            "খাবার  পরে",
+            "জ্বর হলে প্রয়োজন মত"
+          ],
+          "additional_instructions": []
+        },
+        {
+          "drug": {
+            "brand_name": "Vaginal Tablet Afun VT (100mg)",
+            "generic_name": "Clotrimazole VT",
+            "company_name": "Square Pharmaceuticals Ltd.",
+            "strength": "100mg",
+            "formulation": "Vaginal Tablet",
+            "indication": "Vaginal itching, burning and discharge associated with recurrent vaginal yeast infections Vulvovaginal candidiasis (Vagonal thrush).",
+            "pack_size": "6's pack",
+            "price": "60.25"
+          },
+          "dose": [
+            0.0
+          ],
+          "duration": {
+            "value": 5.0,
+            "type": "day"
+          },
+          "instructions": [
+            "মাসিকের রাস্তায় ১ ট্যাবলেট , রাতে ঘুমানোর আগে"
+          ],
+          "additional_instructions": []
+        },
+        {
+          "drug": {
+            "brand_name": "Lotion Calamine",
+            "generic_name": "Calamine 15% + Zinc Oxide 5%",
+            "company_name": "Amico Laboratories Ltd.",
+            "strength": "",
+            "formulation": "Lotion",
+            "indication": "Pruritus, Discomfort from minor skin irritations such as Poison ivy, Poison oak, Poison sumac. Itching, Psoriasis, eczema, urticaria.",
+            "pack_size": "100ml bot",
+            "price": "38"
+          },
+          "dose": [
+            0.0
+          ],
+          "duration": {
+            "value": 7.0,
+            "type": "day"
+          },
+          "instructions": [
+            "আক্রান্ত স্থানে লাগাবেন দিনে ২ বার"
+          ],
+          "additional_instructions": []
+        }
+      ],
+
+      "advices": [
+        {
+          "snomed_id": "",
+          "term": "নিয়মিত ওষুধ খাবেন"
+        },
+        {
+          "snomed_id": "",
+          "term": "জন্ডিস না কমলে নিকটবর্তী থানা স্বাস্থ কমপ্লেক্সে দেখা করবেন"
+        }
+      ],
+
+      "investigations": [
+        {
+          "snomed_id": "",
+          "term": "S. bilirubin"
+        },
+        {
+          "snomed_id": "",
+          "term": "SGPT"
+        },
+        {
+          "snomed_id": "",
+          "term": "Anti HAV"
+        },
+        {
+          "snomed_id": "",
+          "term": "Anti HEV"
+        },
+        {
+          "snomed_id": "",
+          "term": "Urine R/M/E"
+        },
+        {
+          "snomed_id": "",
+          "term": "S.Creatinine"
+        },
+        {
+          "snomed_id": "",
+          "term": "CBC"
+        },
+        {
+          "snomed_id": "",
+          "term": "usg of whole abdomen"
+        }
+      ],
+
+      "consultation_date": "2017-10-16T10:18:32.627+0000",
+      "consultation_duration": 1773,
+      "consultation_type": {
+        "is_followup": false,
+        "is_referred": false,
+        "is_free": false
+      },
+
+      "followup_date": "2017-10-22T18:00:00.000+0000"
+    },
+
+    "feedback": {
+      "id": {
+        "$oid": "5a2b08fc449b71fe766d0f68"
+      },
+
+      "rmp": {
+        "rating": 4,
+        "red_flags": [
+          "Delay: Unusable picture"
+        ]
+      },
+
+      "doctor": {
+        "rating": null,
+        "red_flags": []
+      }
+    }
+  }
+]
